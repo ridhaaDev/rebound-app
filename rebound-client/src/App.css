@@ -1,0 +1,64 @@
+.outer-container {
+ 
+  background: url("basket-ball-bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: 120%; */
+  height: calc(100vh - 65px);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  overflow: hidden;
+}
+
+a { 
+  text-decoration: none; 
+  color: white; 
+ }
+
+.register-container {
+  max-width: 500px;
+  margin: 100px 0;
+  border: 1px solid black;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.register-container h1 {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container button {
+  padding: 10px;
+  margin: 7px;
+  max-width: 300px;
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.form-container button {
+  cursor: pointer;
+  max-width: 150px;
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .register-container {
+    margin: 0;
+    padding: 0;
+  }
+}

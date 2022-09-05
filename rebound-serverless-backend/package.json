@@ -1,0 +1,12 @@
+{
+  "name": "rebound-backend",
+  "version": "1.0.0",
+  "description": "Backend for rebound login/register basketball metrics system",
+  "main": "index.js",
+  "author": "ridhaadev",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
